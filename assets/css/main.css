@@ -3176,7 +3176,7 @@ span {
 .header-1 .header-right .main-button .theme-btn,
 .header-1 .header-right .main-button .arrow-btn {
   background-color: var(--theme2);
-  color: var(--header);
+  color: #fff;
 }
 
 .header-1 .header-right .main-button:hover .theme-btn,
@@ -3215,9 +3215,9 @@ span {
   color: var(--white);
 }
 
-.header-1.style-2 .container-fluid {
+/* .header-1.style-2 .container-fluid {
   padding: 0px 250px;
-}
+} */
 
 @media (max-width: 1600px) {
   .header-1.style-2 .container-fluid {
@@ -7075,7 +7075,7 @@ input.main-search-input::placeholder {
   position: relative;
   border: 1px solid var(--border);
   border-radius: 20px;
-  min-height: 80%;
+  min-height: 100%;
 }
 
 .service-box-items .content h4 {
@@ -8409,4 +8409,5 @@ p.journey-step span {
     display: none;
   }
 }
+
 
